@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>3 Column Layout</title>
+   <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+<body>
+<header class="header"><p>Header...</p>
+    <img src="assets/img/logo.png" alt="" />
+</header>
+<div class="container">
+   <main class="center column">
+       <article>
+           <h1>Contact</h1>
+           <p>
+            <div class="userdet">
+                <h2>User details</h2>
+               <form>
+                    <br><input class="input--style-1" type="text" id="fname" name="Fname" placeholder="Full name *"><br><br>
+
+                    <br><input class="input--style-1" type="date" id="date" name="date" placeholder="Your birthday *"/><br><br>
+
+                    <br><select class="input--style-1" id="gender" name="gender">
+                        <option disabled="disabled" selected="selected">Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select><br><br>
+
+                    <br><select class="country--style" id="country" name="county">
+                        <option disabled="disabled" selected="selected">Country</option>
+                        <option value="ukraine">Ukreine</option>
+                        <option value="russia">Russia</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <input class="phone--style" type="phone" id="phone" name="phone" placeholder="Phone *"/>
+                    <br><br>
+
+                    <lable for="bio">Bio:</lable><br>
+                    <textarea class="textarea--style" name="message">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </textarea>
+                    <br><br>
+                    <button type="submit" class="submitbtn">Submit</button>
+               </form>
+            </div>
+            <div class="accountdet">
+                <h2>Account details</h2>
+                <form>
+                    <br><input class="input--style-1" type="text" id="uname" name="uname" placeholder="Usermane *"><br><br>
+
+                    <br><input class="input--style-1" type="text" id="email" name="email" placeholder="Email *"><br><br>
+
+                    <br><input class="input--style-1" type="password" id="pwd" name="pwd" placeholder="Password *"><br><br>
+
+                    <br><input class="input--style-1" type="password" id="conf-pwd" name="conf-pwd" placeholder="Confirm password *"><br><br>
+
+                    <input type="checkbox" id="accept" name="accept" value="Boat">
+                    <label for="accept"> I accept terms and conditions</label><br><br>
+
+                    <button type="submit" class="submitbtn">Submit</button>
+                </form>
+            </div>
+            </p>
+       </article>
+   </main>
+   <nav class="left column">
+       <h3>Left heading</h3>
+       <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="slider.html">Slider</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="table.html">Table</a></li>
+       </ul>
+       <h3>Left heading</h3>
+       <ul>
+           <li><a href="#">Link 1</a></li>
+           <li><a href="#">Link 2</a></li>
+       </ul>
+   </nav>
+   <div class="right column">
+       <h3>Right heading</h3>
+       <p></p>
+   </div>
+</div>
+<div class="footer-wrapper">
+   <footer class="footer"><p>Footer...</p>
+    <img src="assets/img/logo.png" alt="" />
+</footer>
+</div>
+</body>
+</html>
