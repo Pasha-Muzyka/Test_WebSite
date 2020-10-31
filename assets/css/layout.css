@@ -164,3 +164,7 @@ nav ul a {
 .text--style-1 {
     font-size: x-large;
 }
+
+canvas {
+    border: 1px solid black;
+}
